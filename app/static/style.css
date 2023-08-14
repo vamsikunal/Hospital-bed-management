@@ -1,0 +1,164 @@
+.navbar-nav > li{
+    text-align: center;
+    align-items: center;
+    padding: 0rem 2rem;
+}
+
+.main {
+    display:table;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url('assets/bg.jpg');
+    background-position:center top;
+    background-size:cover;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.title-home {
+    font-weight: 400;
+    vertical-align:center;
+    text-align:center;
+    color:#a0d3f0;
+    font-size:4.5rem;
+    font-family: 'Work Sans', sans-serif;
+    padding:0.5rem;
+    margin-top: 15vh;
+    position:static;
+
+}
+
+.body-home {
+    font-weight: 300;
+    vertical-align:middle;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    font-size:2rem;
+    font-family: 'Work Sans', sans-serif;
+    padding:0.5rem;
+    position:static;
+}
+
+.home-about {
+    position: fixed;
+    left: 0;
+    bottom: 0rem;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size:1rem;
+    font-family: 'Work Sans', sans-serif;
+    padding:1rem;
+    background-color: #212529;
+}
+
+.form-sign-up {
+    margin-top: 1rem;
+    left: 0;
+    top: 20vh;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size:1rem;
+    font-family: 'Work Sans', sans-serif;
+    padding:1rem;
+}
+
+.form {
+    margin-top: 1rem;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size:1rem;
+    font-family: 'Work Sans', sans-serif;
+    padding:1rem;
+}
+
+.form > label,.form > input,.form > a{
+    margin-top: 1rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    padding:1rem;
+}
+
+.form > input {
+    color: black;
+    min-width: 35%;
+    border-radius: 0.5rem;
+    border-style: none;
+}
+
+.portal-title {
+    font-weight: 300;
+    vertical-align:center;
+    text-align:center;
+    color:#a0d3f0;
+    font-size:2.5rem;
+    font-family: 'Work Sans', sans-serif;
+    padding:0.5rem;
+    margin-top: 4rem;
+    position:static;
+}
+
+.form > button {
+    margin-top: 1rem;
+}
+
+.form > button > a {
+    text-decoration: none;
+    color: #fff;
+}
+.form > button > a:hover {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+a:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.table-dark {
+    --bs-table-bg: #212529a4;
+}
+
+.book-bed-options > input{
+
+    margin-top: 1rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    padding:1rem;
+}
+
+.book-bed-options {
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .title-home {
+        font-size:2.5rem;
+    }
+    .body-home {
+        font-size:1.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .home-about {
+        font-size: 0.8rem;
+    }
+
+    .title-home {
+        margin-top: 7vh;
+    }
+    .form {
+        margin-top: 0rem;
+        padding: 0rem;
+    }
+}
+
