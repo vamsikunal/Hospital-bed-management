@@ -1,8 +1,7 @@
 FROM python:latest
 
 RUN apt update && apt install nginx -y
-RUN apt-get update && apt-get install gunicorn -y
-COPY ./nginx/default.conf  /etc/nginx/conf.d/default.conf
+
 
 WORKDIR /app
 
