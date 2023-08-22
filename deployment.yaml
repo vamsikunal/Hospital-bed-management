@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hbms-deployment
+  namespace: default
+spec:
+  replicas: 2   # Number of desired replicas (pods)
+  selector:
+    matchLabels:
+      app: hbms
+  template:
+    metadata:
+      labels:
+        app: hbms
+    spec:
+      containers:
+        - name: back-end
+          image: 728273151702.dkr.ecr.us-east-2.amazonaws.com/hbms:latest   # Replace with your AWS ECR image URI and tag
+          ports:
+            - containerPort: 8000   # Port on which your Django app runs
